@@ -548,27 +548,27 @@ template {
 }
 
 .wrapper .main header.header__one {
-	background: url("//images/Rectangle 64.png") no-repeat top center/cover;
+	background: url("/./images/Rectangle 64.png") no-repeat top center/cover;
 }
 
 .wrapper .main header.header__two {
-	background: url("//images/bg2.jpg") no-repeat top center/cover;
+	background: url("/./images/bg2.jpg") no-repeat top center/cover;
 }
 
 .wrapper .main header.header__three {
-	background: url("//images/bg3.jpg") no-repeat top center/cover;
+	background: url("/./images/bg3.jpg") no-repeat top center/cover;
 }
 
 .wrapper .main header.header__four {
-	background: url("//images/bg4.jpg") no-repeat top center/cover;
+	background: url("/./images/bg4.jpg") no-repeat top center/cover;
 }
 
 .wrapper .main header.header__five {
-	background: url("//images/bg5.jpg") no-repeat top center/cover;
+	background: url("/./images/bg5.jpg") no-repeat top center/cover;
 }
 
 .wrapper .main header.header__six {
-	background: url("//images/bg6.jpg") no-repeat top center/cover;
+	background: url("/./images/bg6.jpg") no-repeat top center/cover;
 }
 
 .wrapper .main header .header {
