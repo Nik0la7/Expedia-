@@ -14,10 +14,10 @@
     z-index: 10;
     height: .3rem;
     .menu{
-        min-width: 72rem;
+        min-width: 24rem;
         width: 100%;
         margin: 0 auto;
-        padding: 0 2rem;
+        padding: 1rem 1rem;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -33,12 +33,9 @@
             }
         }
         .burger {
-            height: 4rem;
-            width: 63rem;
+            display: inline-block;
+            padding: 0 30px;
             cursor: pointer;
-            display: flex;
-            align-items: center;
-            justify-content: flex-end;
             .bar {
                 width: 1.9rem;
                 height: 1.5px;

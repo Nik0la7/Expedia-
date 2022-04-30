@@ -1,0 +1,370 @@
+@media only screen and (max-width: 1024px) {
+    //BOOKING
+    .booking-form {
+        width: 950px;
+    }
+    .flight-form input, .date-form input {
+        width: 150px;
+        
+    }
+    //contact
+    .tabContent h3, p {
+        text-align: center;
+    }
+    //RECOMENDATION
+    #RECOMENDATION .header__item{
+        height: 77%;
+    }
+    .recomendation{
+        height: 90%;
+    }
+    .r-wrapper{
+        overflow: hidden;
+        height: 95%;
+    }
+    .r-img{
+        overflow-y: auto;
+        height: 100%;
+        display: block;
+    }.l-card .r-card{
+        margin: 0;
+    }
+    .r-right img{
+        width: 300px;
+        height: 430px;
+    }
+    //ABOUT
+    .footer{
+        max-width: 900px;
+    }
+}
+@media only screen and (max-width: 768px) {
+// BOOKING
+.booking-form {
+    width: 685px;
+    margin-top: 275px;
+}
+.b-naw ul a {
+    font-size: 14px;
+}
+.direction-countries {
+    width: 635px;
+}
+.direction-countries p {
+    width: 200px;
+}
+.flight-form input, .date-form input {
+    width: 110px;
+}
+.change-btn a {
+    top: 127px;
+    left: 123px;
+}
+
+.tabContent h3, p {
+    width: 560px;
+    font-size: 14px;
+}
+//RECOMENDATION
+.recomendation .tittle {
+    padding-bottom: 15px;
+}
+//ABOUT
+.footer{
+    max-width: 725px;
+}
+.f-wrapper ul{
+    margin: 0 30px;
+}
+.f-wrapper li {
+    max-width: 140px;
+    margin: 0 5px;
+}
+.f-wrapper li h3 {
+    font-size: 12px;
+}
+.f-wrapper li span {
+    font-size: 10px;
+    letter-spacing: 0;
+}
+.f-logo{
+    bottom: 67px;
+}
+.get{
+    bottom: 50px;
+}
+.f-contact{
+    right: 5px;
+}
+//LINKS
+.wrapper .links li {
+    margin: 0px auto;
+}
+.wrapper .links a {
+    padding: 0.9rem 0;
+}  
+}
+@media only screen and (max-width: 425px) {
+    //home
+    .header__item .tittle-1 {
+        font-size: 42px;
+    }
+    .description{
+        width: 375px;
+    }
+    //bookong
+    .booking-form {
+        width: 390px;
+        margin-top: 45px;
+        height: 500px;
+    }
+    .b-wrapper {
+        margin: 0 30px;
+        height: 100px;
+    }
+    .b-naw ul {
+        height: 100px;
+    }
+    .b-naw ul a {
+        line-height: 35px;
+    }
+    .b-naw ul li {
+        padding-bottom: 28px;
+    }
+    .direction-countries {
+        width: 400px;
+    }
+    .direction-countries p {
+        width: 105px;
+        height: 105px;
+    }
+    .left-section, .right-section, .radio-button, .form {
+        display: block;
+        height: 30px;
+    }
+    .form{
+        padding-bottom: 40px;
+    }
+    .tab-2-input {
+        padding-top: 80px;
+    }
+    .flight-form{
+        margin-right: 40px;
+    }
+    .flight-form input, .date-form input {
+        width: 125px;
+        margin-bottom: 30px;
+    }
+    .change-btn a {
+        top: 230px;
+        left: 130px;
+    }
+    .tabContent h3, p {
+        width: 325px;
+        font-size: 16px;
+    }
+    // RECOMENDATION
+    .recomendation .tittle {
+        font-size: 25px;
+    }
+    .r-wrapper {
+        overflow: hidden;
+        height: 98%;
+    }
+    .r-img {
+        height: 450px;
+    }
+    .left-top img {
+        border-radius: 30px;
+        width: 95%;
+    }
+    .left-top:hover .des-card {
+        width: 95%;
+        left: 10px;
+        bottom: 1px;
+    }
+    .left-top .name-object span {
+        top: 130px;
+    }
+    .left-top .country span {
+        top: 155px;
+    }
+    .left-bottom .name-object span {
+        top: 230px;
+    }
+    .left-bottom .country span {
+        top: 260px;
+    }
+    .name-object span {
+        top: 360px;
+    }
+    .country span {
+        top: 390px;
+    }
+    //download
+    .google, .apple {
+        display: inline-block;
+        padding-bottom: 30px;
+    }
+    //about
+    .footer {
+        max-width: 350px;
+        height: 450px;
+        overflow-y: auto;
+    }
+    .f-wrapper li {
+        display: block;
+    }
+    .f-logo {
+        bottom: 30px;
+    }
+    .f-wrapper .logo {
+        margin: 0;
+    }
+    .f-wrapper li {
+        padding-bottom: 30px;
+    }
+    .get {
+        bottom: 30px;
+    }
+    .f-wrapper li h3 {
+        font-size: 17px;
+    }
+    .f-wrapper li span {
+        font-size: 12px;
+        letter-spacing: 0px;
+    }
+    //shadows
+    .wrapper.active .shadow.two {
+        transform: perspective(1300px) rotateY(20deg) translateZ(50px) scale(0.5);
+        -webkit-animation: none;
+        animation: none;
+    }
+    .wrapper.active .shadow.one {
+        transform: perspective(1300px) rotateY(20deg) translateZ(100px) scale(0.5);
+        -webkit-animation: none;
+        animation: none;
+    }
+    .wrapper.active .main {
+        transform: perspective(1300px) rotateY(20deg) translateZ(150px) scale(0.5);
+        -webkit-animation: none;
+        animation: none;
+        cursor: pointer;
+    }
+    .wrapper .links a {
+        font-size: 0.9rem;
+    }
+    .wrapper .links {
+        width: 35%;
+    }  
+}
+@media only screen and (max-width: 375px) {
+    //home
+    .header__item .tittle-1 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+    .description {
+        width: 300px;
+    }
+    //booking
+    .booking-form {
+        width: 350px;
+        margin-top: 45px;
+        height: 500px;
+    }
+    .b-wrapper {
+        margin: 0px 20px;
+    }
+    .direction-countries {
+        width: 350px;
+    }
+    .flight-form input, .date-form input {
+        width: 105px;
+    }
+    .change-btn a {
+        left: 110px;
+    }
+    //recomendation
+    .recomendation .tittle {
+        font-size: 20px;
+    }
+
+    //shadows
+    .wrapper.active .shadow.two {
+        transform: perspective(1300px) rotateY(20deg) translateZ(40px) scale(0.5);
+    }
+    .wrapper.active .shadow.one {
+        transform: perspective(1300px) rotateY(20deg) translateZ(70px) scale(0.5);
+    }
+    .wrapper.active .main {
+        transform: perspective(1300px) rotateY(20deg) translateZ(110px) scale(0.5);
+    }
+    .wrapper .links {
+        width: 40%;
+    }
+    .wrapper .links li {
+        margin: 0px auto;
+        height: 65px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    //navbar
+    .navbar .menu {
+        min-width: 20rem;
+        padding: 1rem 0.5rem;
+    }
+    .navbar .menu .burger {
+        padding: 0px 10px;
+    }
+
+    //shadows
+    .wrapper.active .shadow.two {
+        transform: perspective(1300px) rotateY(20deg) translateZ(20px) scale(0.5);
+    }
+    .wrapper.active .shadow.one {
+        transform: perspective(1300px) rotateY(20deg) translateZ(45px) scale(0.5);
+    }
+    .wrapper.active .main {
+        transform: perspective(1300px) rotateY(20deg) translateZ(70px) scale(0.5);
+    }
+    .wrapper .links {
+        width: 40%;
+    }
+    .wrapper .links li {
+        height: 70px;
+    }
+    .wrapper .links a {
+        font-size: 12px;
+    }
+    .wrapper .links {
+        width: 45%;
+    }
+    //booking
+    .booking-form {
+        width: 300px;
+    }
+    .b-wrapper {
+        margin: 0px 0px;
+    }
+    .direction-countries {
+        width: 275px;
+    }
+    .direction-countries p {
+        width: 85px;
+    }
+    .direction-countries a {
+        color: #fff;
+        font-size: 12px;
+    }
+    .flight-form input, .date-form input {
+        width: 80px;
+    }
+    .change-btn a {
+        left: 85px;
+    }
+    .tabContent h3, p {
+        width: 270px;
+        font-size: 14px;
+    } 
+}
